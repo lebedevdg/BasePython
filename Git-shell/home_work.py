@@ -1,15 +1,11 @@
-    def greet_names(names):
-        # never change in place!!
-        # for name in names:
-        #     print("Hello", name.title())
-        while names:
-            name = names.pop()
-            print("Hello", name.title())
+def funk(test):
 
-        # return None
+    sieve = [True] * test
+    for i in range(2, test):
+        if sieve[i]:
+            print(i)
+            for j in range(i*1, test, i):
+                sieve[j] = False
 
 
-    names = ["sam", "ann", "nick", "john"]
-    print("names:", names)
-    greet_names(names)
-    print("names:", names)
+funk(10000000)
