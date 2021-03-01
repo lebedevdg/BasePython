@@ -1,3 +1,7 @@
 # Python Developer. Basic
 
-Репозиторий по курсу Python Developer. Basic
++ Репозиторий по курсу Python Developer Basic
+
+### HW 1 - Git-shell
+
+- В этом ДЗ надо создадить репозиторий и напишсать код, который продемонстрирует работу функций Фибоначи
