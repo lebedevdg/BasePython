@@ -62,7 +62,7 @@ def filter_numbers(numbers, numbers_type) -> list:
         return numbers
 
 
-print("Не четные числа:", filter_numbers(range(1, 20), ODD))
-print("Четные числа:", filter_numbers(range(1, 20), EVEN))
-print("Простые числа:", filter_numbers(range(1, 20), PRIME))
-filter_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 555)
+# print("Не четные числа:", filter_numbers(range(1, 20), ODD))
+# print("Четные числа:", filter_numbers(range(1, 20), EVEN))
+# print("Простые числа:", filter_numbers(range(1, 20), PRIME))
+# filter_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 555)
